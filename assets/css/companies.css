@@ -1,0 +1,56 @@
+/* assets/css/companies.css */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+    margin: 0;
+}
+
+.sidebar {
+    min-height: 100vh;
+    background: #ffffff;
+    border-right: 1px solid #e2e8f0;
+}
+
+.sidebar .brand {
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 1.5rem 1.25rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.sidebar a {
+    color: #64748b;
+    text-decoration: none;
+    padding: 0.85rem 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin: 4px 12px;
+}
+
+.sidebar a:hover, .sidebar a.active {
+    background: #4f46e5;
+    color: #ffffff !important;
+}
+
+.table-card {
+    background: #ffffff;
+    border-radius: 16px;
+    border: 1px solid #e2e8f0;
+}
+
+.company-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e0e7ff;
+    color: #4f46e5;
+}
